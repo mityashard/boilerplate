@@ -1,7 +1,6 @@
 header {
 	color: white;
 	background: black;
-	font-family: helvetica;
 	font-size: 200%;
 	padding: 10px;
 }
@@ -9,10 +8,9 @@ h2 {
 	color: white;
 	background: black;
 }
-main {
+body {
 	font-family: helvetica;
 }
 footer {
-	font-family: helvetica;
 	padding-top: 25px;
 }
