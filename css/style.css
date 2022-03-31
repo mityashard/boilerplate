@@ -23,6 +23,7 @@ body {
 }
 .image {
 	background-image: url(../img/img.png);
+	background-size: cover;
 	width: 1440px;
 	height:1080px;
 }
@@ -50,8 +51,8 @@ body {
 	width: 1280px;
 	height: 637px;
 	padding-left: 80px;
-	padding-top: 1490px;
-
+	padding-top: 1290px;
+	
 	font-family: 'Helvetica';
 	font-style: normal;
 	line-height: 50px;
@@ -82,7 +83,7 @@ body {
 	width: 614px;
 	height: 64px;
 	left: 746px;
-	top: 2397px;
+	top: 2197px;
 
 	color: white;
 	font-family: 'Montserrat';
