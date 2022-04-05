@@ -1,0 +1,106 @@
+@import url(reset.css);
+
+header {
+	background-color: #FE1A19;
+	color: white;
+	font-family: helvetica;
+	height: 60px;
+	position: relative;
+}
+
+h1 {
+	position: absolute;
+	padding: 20px;
+}
+
+section {
+	background-color: lightgrey;
+	font-family: helvetica;
+	color: black;
+
+}
+div {
+	width: 400px;
+	height: 800px;
+	display: inline-block;
+	vertical-align: top;
+	position: relative;
+	box-sizing: border-box;
+}
+.recipe.one {
+	border: 2px solid hotpink;
+	border-radius: 100px;
+	left: 70px;
+	top: 112px;
+	position: absolute;
+}
+.recipe-head.one {
+	width: 207px;
+	height: 23px;
+	left: 43px;
+	top: 50px;
+	display: block;
+	position: absolute;
+}
+.recipe-text.one {
+	position: relative;
+	padding: 97px 33px 33px 43px;
+	text-align: left;
+}
+.recipe.two {
+	border: 2px solid hotpink;
+	border-radius: 100px;
+	left: 520px;
+	top: 112px;
+	bottom: 112px;
+	position: absolute;
+}
+.recipe-head.two {
+	width: 207px;
+	height: 23px;
+	left: 43px;
+	top: 50px;
+	display: block;
+	position: absolute;
+}
+.recipe-text.two {
+	position: relative;
+	padding: 112px 33px 33px 43px;
+	text-align: left;
+}
+.recipe.three {
+	border: 2px solid hotpink;
+	border-radius: 100px;
+	left: 970px;
+	top: 112px;
+	position: absolute;
+}
+.recipe-head.three {
+	width: 207px;
+	height: 23px;
+	left: 43px;
+	top: 50px;
+	display: block;
+	position: absolute;
+}
+.recipe-text.three {
+	position: relative;
+	padding: 112px 33px 33px 43px;
+	text-align: left;
+}
+h2 {
+	font-weight: 700;
+	font-size: 30px;
+}
+footer {
+	top: 890px;
+	margin-top: 20px;
+	background-color: #FE1A19;
+	color: white;
+	font-family: helvetica;
+	height: 60px;
+	position: relative;
+}
+footer p {
+	padding: 20px;
+}
