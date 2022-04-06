@@ -23,7 +23,7 @@ section {
 	width: 400px;
 	height: 800px;
 	border: 2px solid hotpink;
-	border-radius: 100px;
+	border-radius: 90px;
 	display: inline-block;
 	vertical-align: top;
 	position: relative;
@@ -34,10 +34,11 @@ section {
 	font-weight: 700;
 	font-size: 30px;
 	padding-top: 55px;
-	padding-left: 33px;
+	padding-left: 40px;
+	text-align: left;
 }
 .recipe-text {
-	padding: 33px;
+	padding: 40px;
 	text-align: left;
 }
 footer {
