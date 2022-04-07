@@ -17,7 +17,9 @@ section {
 	background-color: floralwhite;
 	font-family: helvetica;
 	color: black;
-
+}
+.section {
+	text-align: justify;
 }
 .recipe {
 	width: 400px;
@@ -29,17 +31,19 @@ section {
 	position: relative;
 	box-sizing: border-box;
 	margin: 52px 35px;
+	padding: 40px;
+	text-align: left;
 }
 .recipe-head {
 	font-weight: 700;
 	font-size: 30px;
-	padding-top: 55px;
-	padding-left: 40px;
+	padding-top: 20px;
+	padding-bottom: 30px;
 	text-align: left;
 }
 .recipe-text {
-	padding: 40px;
-	text-align: left;
+	padding-top: 12px;
+	padding-bottom: 10px;
 }
 footer {
 	top: 890px;
