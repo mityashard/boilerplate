@@ -34,6 +34,9 @@ section {
 	padding: 40px;
 	text-align: left;
 }
+.li {
+	font-weight: 600;
+}
 .li-text {
 	list-style-image: url("../img/bread.png");
 }
