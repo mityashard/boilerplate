@@ -7,47 +7,24 @@ body {
 	height: 140px;
 	color: white;
 	display: flex;
-	flex-direction: row;
+	align-items: center;
 	position: fixed;
-}
-.logo-1 {
-	background-attachment: fixed;
-	width: 180px;
-	height: 90px;
-	margin: 30px;
 	margin-left: 50px;
 }
+.logo-1 {
+	width: 180px;
+	height: 90px;
+}
 nav {
+	display: flex;
+	margin-left: 777px;
+	align-items: center;
+	gap: 15px;
+}
+.link {
 	font-family: 'Arial';
 	font-size: 50px;
-	line-height: 57px;
-	display: flex;
-	align-items: center;
-	color: #ff0b49
-}
-.link-1 {
-	position: absolute;
-	width: 130px;
-	height: 40px;
-	left: 950px;
-	top: 50px;
-}
-.link-2 {
-	position: absolute;
-	width: 130px;
-	height: 40px;
-	left: 1105px;
-	top: 50px;
-}
-.link-3{
-	position: absolute;
-	width: 130px;
-	height: 40px;
-	left: 1260px;
-	top: 50px;
-}
-.key-visual {
-
+	color: #ff0b49;
 }
 .about {
 	position: relative;
