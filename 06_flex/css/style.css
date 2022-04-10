@@ -27,11 +27,11 @@ nav {
 	color: #ff0b49;
 }
 .about {
-	position: relative;
+	position: flex;	
+	flex-wrap: wrap;
+	margin: 150px auto;
 	width: 1040px;
 	height: 280px;
-	left: 201px;
-	top: 90px;
 
 	border: 3px solid #F8BFC7;
 	box-sizing: border-box;
@@ -53,6 +53,7 @@ strong {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
+	flex-wrap: wrap;
 	margin-top: 174px;
 }
 figcaption {
@@ -63,11 +64,11 @@ figcaption {
 	line-height: 29px;
 }
 .composition {
-	position: relative;
+	position: flex;	
+	flex-wrap: wrap;
+	margin: 156px auto;
 	width: 1040px;
 	height: 280px;
-	margin-top: 156px;
-	margin-left: 201px;
 
 	border: 3px solid #F8BFC7;
 	box-sizing: border-box;
@@ -82,7 +83,6 @@ figcaption {
 	font-family: 'Arial';
 	font-size: 25px;
 	line-height: 29px;
-	align-items: center;
 	letter-spacing: 0.05em;
 }
 .comp-details {
