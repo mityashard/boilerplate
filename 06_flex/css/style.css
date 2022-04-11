@@ -16,7 +16,12 @@ body {
 }
 .logo-1 {
 	width: 180px;
-	height: 90px;
+	height: 90px;	
+	transition-duration: .7s;
+}
+.logo-1:hover {
+	width: 200px;
+	height: 100px;
 }
 nav {
 	height: 40px;
