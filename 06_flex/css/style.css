@@ -5,8 +5,11 @@ body {
 }
 .header	{
 	height: 140px;
+	width: 100%;
 	color: white;
 	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
 	align-items: center;
 	position: fixed;
 	margin-left: 50px;
@@ -16,38 +19,52 @@ body {
 	height: 90px;
 }
 nav {
-	display: flex;
-	margin-left: 777px;
-	align-items: center;
-	gap: 15px;
+	height: 40px;
+	width: 450px;
+	align-items: flex-end;
+
 }
 .link {
 	font-family: 'Arial';
 	font-size: 50px;
 	color: #ff0b49;
 }
-.about {
-	position: flex;	
-	flex-wrap: wrap;
-	margin: 150px auto;
+.key-visual {
+	height: 950px;
+	background-image: url(../img/evian_origins_logo.png);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.slogan {
+	font-family: 'Arial';
+	color: #ff0b49;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 100px;
+	line-height: 115px;
+	display: flex;
+	justify-content: center;
+	padding-top: 30%;
+}
+.all-content {
 	width: 1040px;
-	height: 280px;
+	margin: auto;
+}
+.bordered {
+	width: 1040px;
+	font-family: 'Arial';
+	font-size: 25px;
+	line-height: 29px;
+	margin: 150px auto;
 
 	border: 3px solid #F8BFC7;
 	box-sizing: border-box;
 	border-radius: 20px;
+	padding: 24px;
 }
 strong {
-	line-height: 60px;
-}
-.about-text {
-	font-family: 'Arial';
-	font-size: 25px;
-	line-height: 29px;
-	align-items: center;
-	letter-spacing: 0.05em;
-	padding: 18px;
-	padding-top: 10px;
+	line-height: 35px;
 }
 .bottles {
 	display: flex;
@@ -63,30 +80,19 @@ figcaption {
 	font-size: 25px;
 	line-height: 29px;
 }
-.composition {
-	position: flex;	
-	flex-wrap: wrap;
-	margin: 156px auto;
-	width: 1040px;
-	height: 280px;
-
-	border: 3px solid #F8BFC7;
-	box-sizing: border-box;
-	border-radius: 20px;
-}
-.glass {
-	float: left;
-	margin: 30px 30px 30px 80px;
-}
-.comp-text {
-	padding: 20px 30px 30px 261px;
-	font-family: 'Arial';
-	font-size: 25px;
-	line-height: 29px;
+.bordered-flex {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: ;
+	justify-content: center;
+	align-items: center;
 	letter-spacing: 0.05em;
 }
+.glass {
+	padding: 30px 80px;
+}
 .comp-details {
-	padding: 10px 0px;
+	padding: 15px;
 }
 .more {
 	display: flex;
@@ -108,9 +114,9 @@ figcaption {
 	color: #ff0b49
 }
 .footer {
-	position: relative;
-	width: 1440px;
 	height: 140px;
+	width: 100%;
+	position: relative;
 	margin-top: 150px;
 	background: #F8BFC7
 }
