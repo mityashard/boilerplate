@@ -23,7 +23,7 @@ section {
 }
 .recipe {
 	width: 400px;
-	height: 800px;
+	height: 850px;
 	border: 2px solid hotpink;
 	border-radius: 90px;
 	display: inline-block;
@@ -32,7 +32,7 @@ section {
 	box-sizing: border-box;
 	margin: 52px 35px;
 	padding: 40px;
-	text-align: left;
+	
 }
 .li {
 	font-weight: 600;
@@ -44,11 +44,12 @@ section {
 	font-weight: 700;
 	font-size: 30px;
 	padding-top: 20px;
-	padding-bottom: 30px;
+	padding-bottom: 20px;
 	text-align: left;
 }
 .recipe-text {
 	padding-top: 12px;
+	padding-left: 10px;
 	padding-bottom: 10px;
 }
 footer {
