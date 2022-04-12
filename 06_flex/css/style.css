@@ -20,8 +20,7 @@ body {
 	transition-duration: .7s;
 }
 .logo-1:hover {
-	width: 200px;
-	height: 100px;
+	transform: scale(1.2);
 }
 nav {
 	height: 40px;
@@ -54,6 +53,10 @@ nav {
 	font-weight: 400;
 	font-size: 100px;
 	line-height: 115px;
+	transition-duration: 1s;
+}
+.slogan:hover {
+	transform: scale(1.2);
 }
 main {
 	padding-top: 140px;
