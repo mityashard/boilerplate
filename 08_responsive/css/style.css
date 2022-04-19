@@ -1,0 +1,169 @@
+@import url(reset.css);
+
+@keyframes pop {
+  20% {
+    transform: translateY(9px);
+  }
+  40% {
+    transform: translateY(-9px);
+  }
+  60% {
+  	transform: translateY(6px);
+  }
+  80% {
+  	transform: translateY(-6px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+header {
+	min-height: 160px;
+	background-color: rgb(255, 225, 57);
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-content: center;
+}
+h1, h2 {
+	font-size: 3.5em;
+	font-weight: 400;
+	text-transform: uppercase;
+	font-family: 'Helvetica' sans-serif;
+	cursor: pointer;
+}
+h1:hover {
+	transform: scale(1.3);
+	transition-duration: 1.5s;
+	transition-timing-function: ease;
+}
+main {
+	padding: 70px 0;
+}
+.columns {
+	width: 80vw;
+	min-height: 40vh;
+	display: flex;
+	flex-flow: row;
+	justify-content: space-around;
+	align-items: flex-start;
+	margin: auto;
+}
+.column {
+	border: 1px solid pink;
+	width: calc((100% - 100px)/3);
+}
+.image1 {
+	background-image: url(../img/Meta_Side_Table.png);
+	background-size: cover;
+	background-position: center;
+	background-origin: border-box;
+	height: 150px;
+	padding-bottom: 100%;
+	position: relative;
+	cursor: pointer;
+}
+.image1-desc {
+	position: absolute;
+	color: white;
+	font-famity: 'Helvetica';
+	background-color: rgba(0, 0, 0, 0.2);
+	opacity: 0;
+	transition: opasity 2s easy-in;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+}
+.image1-desc p {
+	padding: 20px 30px;
+	font-style: italic;
+}
+.image1:hover .image1-desc {
+  opacity: 1;
+}
+.image2 {
+	background-image: url(../img/Click_Shelf.png);
+	background-size: cover;
+	background-position: center;
+	background-origin: border-box;
+	height: 150px;
+	padding-bottom: 100%;
+	position: relative;
+	cursor: pointer;
+}
+.image2-desc {
+	position: absolute;
+	color: white;
+	font-famity: 'Helvetica';
+	background-color: rgba(0, 0, 0, 0.2);
+	opacity: 0;
+	transition: opasity 2s easy-in;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+}
+.image2-desc p {
+	padding: 20px 30px;
+	font-style: italic;
+}
+.image2:hover .image2-desc {
+  opacity: 1;
+ }
+.image3 {
+	background-image: url(../img/Float_Shelf.png);
+	background-size: cover;
+	background-position: center;
+	background-origin: border-box;
+	height: 150px;
+	padding-bottom: 100%;
+	position: relative;
+	cursor: pointer;
+}
+.image3-desc {
+	position: absolute;
+	color: white;
+	font-famity: 'Helvetica';
+	background-color: rgba(0, 0, 0, 0.2);
+	opacity: 0;
+	transition: opasity 2s easy-in;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+}
+.image3-desc p {
+	padding: 20px 30px;
+	font-style: italic;
+}
+.image3:hover .image3-desc {
+  opacity: 1;
+ }
+p {
+	font-family: 'Helvetica' sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 30px;
+}
+h3 {
+	font-weight: 700;
+	line-height: 40px;
+}
+.text {
+padding: 23px 30px 33px;
+line-height: 130%;
+}
+footer {
+	min-height: 160px;
+	background-color: rgb(255, 225, 57);
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-content: center;
+}
+h2:hover {
+	animation: pop 1s ease 1;
+}
