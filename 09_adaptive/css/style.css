@@ -1,0 +1,74 @@
+@import url(reset.css);
+
+.header, .footer {
+	background: rgb(21, 0, 255);
+	color: white;
+	font-family: 'Helvetica';
+	font-size: 1em;
+	height: 100px;
+	display: flex;
+	flex-flow: row wrap;
+	justify-items: center;
+	align-items: center;
+}
+.headline {
+	padding-left: 30px;
+}
+.blocks {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-items: center;
+} 
+.block {
+	border: 7px solid black;
+	box-sizing: border-box;
+	font-family: 'Helvetica';
+	width: calc(60vw/2);
+	margin: 20px;
+	justify-content: space-around;
+	align-items: center;
+	text-align: center;
+	font-weight: 700;
+	font-size: 2.5em;
+	line-height: 1em;
+}
+.footer {
+	display: flex;
+	justify-content: space-between;
+}
+.copyright {
+	padding-left: 30px;
+}
+.button {
+	display: inline-block;
+	width: 99px;
+	margin-right: 30px;
+}
+
+@media screen and (min-width: 375px) {
+	.block {
+		display: flex;
+		flex-flow: column wrap;
+		min-width: 90vw;
+		min-height: 30vh;
+		padding: 20px;
+		font-size: 2em;
+	}
+	.blocks {
+		margin: 10px auto;
+	}
+}
+
+@media screen and (min-width: 376px) {
+	.block {
+		display: flex;
+		flex-flow: row wrap;
+		min-width: 33vw;
+		min-height: 35vh;
+	}
+	.blocks {
+		padding: 102px 110px;
+	}
+}
+
