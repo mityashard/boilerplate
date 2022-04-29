@@ -46,21 +46,34 @@
 	margin-right: 30px;
 }
 
-@media screen and (min-width: 375px) {
+@media screen and (min-width: 322px) {
 	.block {
 		display: flex;
-		flex-flow: column wrap;
-		min-width: 90vw;
+		flex-flow: row wrap;
+		min-width: 60vw;
 		min-height: 30vh;
-		padding: 20px;
+		padding: 5px;
 		font-size: 2em;
 	}
 	.blocks {
-		margin: 10px auto;
+		padding: 102px 110px;
 	}
 }
+@media screen and (min-width: 600px) {
+	.block {
+		display: flex;
+		flex-flow: row wrap;
+		min-width: 50vw;
+		min-height: 30vh;
+		padding: 5px;
+		font-size: 2em;
+	}
+	.blocks {
+		padding: 102px 110px;
+	}
 
-@media screen and (min-width: 376px) {
+}
+@media screen and (min-width: 960px) {
 	.block {
 		display: flex;
 		flex-flow: row wrap;
