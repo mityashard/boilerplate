@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<title>Forms</title>
+	<meta name="viewport" content="width=device-width, inicial-scale=1">
+	<meta charset="utf-8">
+	<meta description="Boilerplate code">
+	<meta keywords="Boilerplate, test">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<header class="header">
+		<nav class="nav">
+			<p class="nav-name">МОИ ПОСЫЛКИ</p>
+			<p class="nav-name">УПАКОВКА</p>
+			<p class="nav-name">ПОДПИСКА</p>
+		</nav>
+		<form class="search" action="#">
+			<input type="search" name="search" id="#" placeholder="Найдется всё...">
+		</form>
+	</header>
+	<main>
+		<div class="hero-block">
+			<div class="key-visual">
+				<form action="https://formspree.io/f/meqnpzvw" method="POST">
+					<fieldset>
+						<label for="name">ИМЯ И ФАМИЛИЯ</label>
+						<input class="input-form data" type="text" name="name" placeholder="Как тебя зовут?">
+						<label for="city">ТВОЙ ГОРОД</label>
+						<input class="input-form data" type="text" name="city" placeholder="Ты откуда?">
+						<label for="number">ТЕЛЕФОН</label>
+						<input class="input-form data" type="tel" name="number" placeholder="Твой номер?">
+						<label for="gift">ЧТО ДАРИШЬ?</label>
+						<select class="input-form data" name="gift">
+							<option value="ЦВЕТЫ">ЦВЕТЫ</option>
+							<option value="КНИГИ">КНИГИ</option>
+							<option value="КОНФЕТЫ">КОНФЕТЫ</option>
+							<option value="ДЕНЬГИ">ДЕНЬГИ</option>
+						</select>
+						<label for="email">ТВОЯ ПОЧТА</label>
+						<input class="input-form data" type="email" name="email" placeholder="hi@email.com">
+						<span class="input-form">Давайте общаться в чате <input class="input-form checkbox" type="checkbox" name="agree" checked="true"></span>
+						<input class="input-form" type="submit" name="submit">
+					</fieldset>
+				</form>
+			</div>
+		</div>
+		<div class="background">
+			<h1>Ваша посылка уже в пути</h1>
+		</div>
+	</main>
+	<footer class="footer">
+		<p class="brand-name">🎁 🤫 СЕКРЕТНЫЕ ПОСЫЛКИ ДЛЯ ДРУЗЕЙ 🤫 🎁</p>
+		<p class="copyright">Сделано с любовью, 2022</p>
+	</footer>
+</body>
+</html>
