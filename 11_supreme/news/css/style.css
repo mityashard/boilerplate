@@ -35,14 +35,13 @@
 	margin-top: 386px;
 }
 .photo {
-	background-image: url(../img/supreme.png);
 	width: 390px;
 	height: 260px;
 	margin-top: 40px;
 }
-figcaption {
+.slider {
 	position: relative;
-	top: 300px;
+	top: 50px;
 	left: 45%;
 	font-family: 'Space mono', sans-serif;
 	cursor: pointer;
