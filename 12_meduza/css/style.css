@@ -20,7 +20,7 @@
 	color: #FFFFFF;
 	cursor: pointer;
 }
-ul li.upd:first-child {
+ul li.upd {
 	color: #A37846;
 }
 .switch-search {
@@ -247,8 +247,7 @@ input:checked + .slider:before {
 	font-size: 15px;
 	line-height: 18px;
 	letter-spacing: -0.05em;
-	text-transform: capitalize;
-
+	
 	margin-left: 172px;
 	margin-right: 167px;
 }
